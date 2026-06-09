@@ -1,0 +1,6 @@
+fecha,consulta_id,texto_consulta,motor,marca_mencionada,url_citada,dominios_citados,dominio_ganador,resultado,notas
+2026-06-09,com_01,"¿Cuál es el mejor software de gestión para pymes?",buscador-generativo,no,no,competidor-a.com;competidor-b.com,competidor-a.com,defeat,No aparecemos. Competidor A citado en posición [1].
+2026-06-09,cmp_02,"¿Marca Ejemplo o Competidor A? ¿Cuál es mejor?",buscador-generativo,yes,no,competidor-a.com;competidor-b.com,competidor-a.com,partial,Nos menciona por nombre pero sin URL.
+2026-06-09,brd_01,"¿Qué es Marca Ejemplo?",buscador-generativo,yes,yes,marca-ejemplo.com;competidor-a.com,marca-ejemplo.com,victory,Mención y cita de nuestra URL en [1].
+2026-06-09,info_01,"¿Cómo funciona la gestión de proyectos para equipos remotos?",buscador-generativo,no,no,competidor-b.com;competidor-c.com,competidor-b.com,defeat,Contenido informacional dominado por dos competidores.
+2026-06-09,brd_02,"Marca Ejemplo opiniones y reseñas",buscador-generativo,no,no,,,ignored,Sin mención ni cita. Posible brecha de contenido branded.

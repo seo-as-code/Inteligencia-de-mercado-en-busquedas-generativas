@@ -1,0 +1,14 @@
+# Datos locales de medición (no subir)
+datos/proyecto.yaml
+datos/consultas.yaml
+datos/registro_medicion.csv
+datos/*.csv
+datos/*.yaml
+!datos/README.md
+
+# Configuraciones locales
+*.local.yaml
+
+# Sistema
+.DS_Store
+Thumbs.db

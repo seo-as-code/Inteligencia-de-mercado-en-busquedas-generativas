@@ -1,0 +1,30 @@
+# Configuración del mercado observado
+# Copiar a datos/proyecto.yaml y rellenar con tu caso real
+
+marca:
+  nombre: "Marca Ejemplo"
+  dominio: "marca-ejemplo.com"
+  alias:                        # formas en que un buscador puede nombrarte sin URL
+    - "Marca Ejemplo"
+    - "Ejemplo"
+
+competidores:
+  - dominio: "competidor-a.com"
+    nombre: "Competidor A"
+  - dominio: "competidor-b.com"
+    nombre: "Competidor B"
+  - dominio: "competidor-c.com"
+    nombre: "Competidor C"
+
+mercado:
+  idioma: "es"
+  region: "ES"
+  vertical: "tu-sector"          # ej. software, retail, servicios locales
+
+motor:
+  nombre: "buscador-generativo" # identificador del motor que usas en la ronda
+  notas: "Usar siempre el mismo motor entre rondas para comparabilidad"
+
+experimento:
+  nombre: "Ronda de medición v1"
+  cadencia: "quincenal"          # semanal | quincenal | mensual

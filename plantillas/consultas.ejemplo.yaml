@@ -1,0 +1,48 @@
+# Inventario de consultas por intención
+# Copiar a datos/consultas.yaml y adaptar a tu mercado
+
+consultas:
+
+  # --- Informacional ---
+  - id: info_01
+    intencion: informacional
+    texto: "¿Cómo funciona [tu servicio o categoría]?"
+    prioridad: P2
+
+  - id: info_02
+    intencion: informacional
+    texto: "¿Qué criterios debo tener en cuenta al elegir [categoría]?"
+    prioridad: P2
+
+  # --- Comercial ---
+  - id: com_01
+    intencion: comercial
+    texto: "¿Cuál es el mejor [producto o servicio] para [perfil de cliente]?"
+    prioridad: P1
+
+  - id: com_02
+    intencion: comercial
+    texto: "¿Qué empresa recomiendas para [necesidad concreta]?"
+    prioridad: P1
+
+  # --- Comparativa ---
+  - id: cmp_01
+    intencion: comparativa
+    texto: "Comparativa de [categoría]: opciones y diferencias"
+    prioridad: P1
+
+  - id: cmp_02
+    intencion: comparativa
+    texto: "¿[Marca Ejemplo] o [Competidor A]? ¿Cuál es mejor?"
+    prioridad: P1
+
+  # --- Branded ---
+  - id: brd_01
+    intencion: branded
+    texto: "¿Qué es [Marca Ejemplo]?"
+    prioridad: P2
+
+  - id: brd_02
+    intencion: branded
+    texto: "[Marca Ejemplo] opiniones y reseñas"
+    prioridad: P2
