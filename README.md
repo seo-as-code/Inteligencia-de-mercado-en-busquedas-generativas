@@ -28,6 +28,8 @@ Conecta **SEO** (búsqueda clásica) y **GEO** (búsqueda generativa) en una est
 | [Guía de registro](docs/COMO_RELLENAR_REGISTRO.md) | Protocolo paso a paso para cada ronda de medición |
 | [Plantillas](plantillas/) | YAML y CSV de ejemplo, listos para copiar |
 | [Datos locales](datos/) | Carpeta de trabajo personal (excluida de Git) |
+| [Guia de contribucion](CONTRIBUTING.md) | Como proponer mejoras al estudio y plantillas |
+| [Seguridad y datos](SECURITY.md) | Politica sobre datos sensibles y que no subir a Git |
 
 ---
 
@@ -76,6 +78,8 @@ Guía detallada: [Cómo rellenar el registro](docs/COMO_RELLENAR_REGISTRO.md)
 .
 ├── README.md
 ├── LICENSE
+├── CONTRIBUTING.md
+├── SECURITY.md
 ├── docs/
 │   ├── ESTUDIO_INTELIGENCIA_MERCADO_BUSQUEDA_GENERATIVA.md
 │   └── COMO_RELLENAR_REGISTRO.md
@@ -107,6 +111,7 @@ La inteligencia de mercado surge al **cruzar las tres capas**, no al mirar una s
 - Las plantillas usan **datos ficticios** (`marca-ejemplo.com`, competidores genéricos).
 - La carpeta `datos/` está en `.gitignore` — tus registros reales **no se suben** a Git.
 - No incluyas credenciales, URLs internas ni información de clientes en commits.
+- Consulta [SECURITY.md](SECURITY.md) para la política completa.
 
 ---
 
@@ -122,7 +127,7 @@ Para implementación técnica avanzada, consulta el ecosistema [SEO-as-Code Tool
 
 ## Contribuir
 
-Las mejoras al estudio, las plantillas y la documentación son bienvenidas mediante issues o pull requests en este repositorio.
+Consulta [CONTRIBUTING.md](CONTRIBUTING.md). Las mejoras al estudio, las plantillas y la documentación son bienvenidas mediante issues o pull requests.
 
 ---
 
